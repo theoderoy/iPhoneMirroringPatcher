@@ -1,0 +1,15 @@
+{
+  "originHash" : "a3ada8c7bd7b9436bf689475e6600ccc98d91a4182bdee4c4777af086c413487",
+  "pins" : [
+    {
+      "identity" : "sipexamine",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/theoderoy/SIPExamine",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e1f4b802a2f7e9da5dfe2b378ee3779626917e64"
+      }
+    }
+  ],
+  "version" : 3
+}

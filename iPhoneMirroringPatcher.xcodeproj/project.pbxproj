@@ -6,6 +6,10 @@
 	objectVersion = 70;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F0390AE02C53226A00C4E2C1 /* SIPExamine in Frameworks */ = {isa = PBXBuildFile; productRef = F0390ADF2C53226A00C4E2C1 /* SIPExamine */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		F00C86452C53184300470B53 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F00C86472C53184300470B53 /* iPhoneMirroringPatcher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iPhoneMirroringPatcher; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00C86472C53184300470B53 /* iPhone Mirroring Patcher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iPhone Mirroring Patcher"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -27,10 +31,11 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F00C86442C53184300470B53 /* Frameworks */ = {
+		F09D78352C531E3900C8E7B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0390AE02C53226A00C4E2C1 /* SIPExamine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +53,7 @@
 		F00C86482C53184300470B53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F00C86472C53184300470B53 /* iPhoneMirroringPatcher */,
+				F00C86472C53184300470B53 /* iPhone Mirroring Patcher */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,12 +61,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F00C86462C53184300470B53 /* iPhoneMirroringPatcher */ = {
+		F00C86462C53184300470B53 /* iPhone Mirroring Patcher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F00C864E2C53184300470B53 /* Build configuration list for PBXNativeTarget "iPhoneMirroringPatcher" */;
+			buildConfigurationList = F00C864E2C53184300470B53 /* Build configuration list for PBXNativeTarget "iPhone Mirroring Patcher" */;
 			buildPhases = (
+				F09D78352C531E3900C8E7B8 /* Frameworks */,
 				F00C86432C53184300470B53 /* Sources */,
-				F00C86442C53184300470B53 /* Frameworks */,
 				F00C86452C53184300470B53 /* CopyFiles */,
 			);
 			buildRules = (
@@ -71,11 +76,12 @@
 			fileSystemSynchronizedGroups = (
 				F00C86492C53184300470B53 /* iPhoneMirroringPatcher */,
 			);
-			name = iPhoneMirroringPatcher;
+			name = "iPhone Mirroring Patcher";
 			packageProductDependencies = (
+				F0390ADF2C53226A00C4E2C1 /* SIPExamine */,
 			);
 			productName = iPhoneMirroringPatcher;
-			productReference = F00C86472C53184300470B53 /* iPhoneMirroringPatcher */;
+			productReference = F00C86472C53184300470B53 /* iPhone Mirroring Patcher */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -102,11 +108,14 @@
 				Base,
 			);
 			mainGroup = F00C863E2C53184300470B53;
+			packageReferences = (
+				F0390ADE2C53226A00C4E2C1 /* XCRemoteSwiftPackageReference "SIPExamine" */,
+			);
 			productRefGroup = F00C86482C53184300470B53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F00C86462C53184300470B53 /* iPhoneMirroringPatcher */,
+				F00C86462C53184300470B53 /* iPhone Mirroring Patcher */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +281,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F00C864E2C53184300470B53 /* Build configuration list for PBXNativeTarget "iPhoneMirroringPatcher" */ = {
+		F00C864E2C53184300470B53 /* Build configuration list for PBXNativeTarget "iPhone Mirroring Patcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F00C864F2C53184300470B53 /* Debug */,
@@ -282,6 +291,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F0390ADE2C53226A00C4E2C1 /* XCRemoteSwiftPackageReference "SIPExamine" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/theoderoy/SIPExamine";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F0390ADF2C53226A00C4E2C1 /* SIPExamine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0390ADE2C53226A00C4E2C1 /* XCRemoteSwiftPackageReference "SIPExamine" */;
+			productName = SIPExamine;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F00C863F2C53184300470B53 /* Project object */;
 }
