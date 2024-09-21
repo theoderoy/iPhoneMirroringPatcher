@@ -23,11 +23,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F00C86472C53184300470B53 /* iPhone Mirroring Patcher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iPhone Mirroring Patcher"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00C86472C53184300470B53 /* IPHMPHelperTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IPHMPHelperTool; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F00C86492C53184300470B53 /* iPhoneMirroringPatcher */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = iPhoneMirroringPatcher; sourceTree = "<group>"; };
+		F00C86492C53184300470B53 /* IPHMPHelperTool */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = IPHMPHelperTool; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 		F00C863E2C53184300470B53 = {
 			isa = PBXGroup;
 			children = (
-				F00C86492C53184300470B53 /* iPhoneMirroringPatcher */,
+				F00C86492C53184300470B53 /* IPHMPHelperTool */,
 				F00C86482C53184300470B53 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		F00C86482C53184300470B53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F00C86472C53184300470B53 /* iPhone Mirroring Patcher */,
+				F00C86472C53184300470B53 /* IPHMPHelperTool */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F00C86462C53184300470B53 /* iPhone Mirroring Patcher */ = {
+		F00C86462C53184300470B53 /* IPHMPHelperTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F00C864E2C53184300470B53 /* Build configuration list for PBXNativeTarget "iPhone Mirroring Patcher" */;
+			buildConfigurationList = F00C864E2C53184300470B53 /* Build configuration list for PBXNativeTarget "IPHMPHelperTool" */;
 			buildPhases = (
 				F09D78352C531E3900C8E7B8 /* Frameworks */,
 				F00C86432C53184300470B53 /* Sources */,
@@ -74,14 +74,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F00C86492C53184300470B53 /* iPhoneMirroringPatcher */,
+				F00C86492C53184300470B53 /* IPHMPHelperTool */,
 			);
-			name = "iPhone Mirroring Patcher";
+			name = IPHMPHelperTool;
 			packageProductDependencies = (
 				F0390ADF2C53226A00C4E2C1 /* SIPExamine */,
 			);
 			productName = iPhoneMirroringPatcher;
-			productReference = F00C86472C53184300470B53 /* iPhone Mirroring Patcher */;
+			productReference = F00C86472C53184300470B53 /* IPHMPHelperTool */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F00C86462C53184300470B53 /* iPhone Mirroring Patcher */,
+				F00C86462C53184300470B53 /* IPHMPHelperTool */,
 			);
 		};
 /* End PBXProject section */
@@ -281,7 +281,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F00C864E2C53184300470B53 /* Build configuration list for PBXNativeTarget "iPhone Mirroring Patcher" */ = {
+		F00C864E2C53184300470B53 /* Build configuration list for PBXNativeTarget "IPHMPHelperTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F00C864F2C53184300470B53 /* Debug */,
